@@ -4,7 +4,7 @@ layout: workshop      # DON'T CHANGE THIS.
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
 venue: "National Oceanography Centre - Southampton"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "Seminar Room, European Way, Southampton, SO14 3ZH"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+address: "Room TBC, European Way, Southampton, SO14 3ZH"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "gb"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "50.8930098"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -17,7 +17,7 @@ instructor: ["Colin Sauze", "Tobias Ferreira"] # boxed, comma-separated list of 
 helper: ["Esther Turner", "Alex Baldwin", "Adam Ward"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["colin.sauze@noc.ac.uk","esther.turner@noc.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite: 1105642720139          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words: "super.neon.light"           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
 
@@ -66,7 +66,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
-  registration box below, please go directly to the <a href="https://2025-01-15-intermediate-software-dev.eventbrite.com">registration page.</a></strong>
+  registration box below...
 
 <div id="eventbrite-widget-container"></div>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
