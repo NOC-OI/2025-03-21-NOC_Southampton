@@ -17,7 +17,7 @@ instructor: ["Colin Sauze", "Tobias Ferreira"] # boxed, comma-separated list of 
 helper: ["Esther Turner", "Alex Baldwin", "Adam Ward"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["colin.sauze@noc.ac.uk","esther.turner@noc.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:  # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
-eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
+eventbrite: 1237631201239          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 what3words: "super.neon.light"           # optional: what3words (https://what3words.com) address of the workshop venue, without leading slashes e.g. "globe.lessening.computers"
 ---
 
@@ -66,7 +66,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
-  registration box below...
+  registration box below, please go directly to the <a href="https://2025-03-20-intermediate-shell.eventbrite.com">registration page.</a></strong>
 
 <div id="eventbrite-widget-container"></div>
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
@@ -85,7 +85,7 @@ displayed if the 'eventbrite' field in the header is not set.
 
 <p id="what">
   <strong>About this workshop:</strong>
-  This course is an introduction to Docker and is intended as a beginner level course that is suitable for people who have no experience of containers. 
+  This course is an introduction to containers and is intended as a beginner level course that is suitable for people who have no experience of containers. 
   It is aimed to help people who want to develop their knowledge of container tooling to help improve reproducibility and support their research work, or that of individuals or teams they are working with.
   Basic familiarity with using the Unix shell/the command line is assumed. Please see the course notes for further information or get in touch with us. 
 </p>
