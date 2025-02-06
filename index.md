@@ -87,7 +87,7 @@ displayed if the 'eventbrite' field in the header is not set.
   <strong>About this workshop:</strong>
   This course is an introduction to Docker and is intended as a beginner level course that is suitable for people who have no experience of containers. 
   It is aimed to help people who want to develop their knowledge of container tooling to help improve reproducibility and support their research work, or that of individuals or teams they are working with.
-  Basic familiarity with using the Unix shell/the command line is assumed. 
+  Basic familiarity with using the Unix shell/the command line is assumed. Please see the course notes for further information or get in touch with us. 
 </p>
 
 <p id="course-notes">
