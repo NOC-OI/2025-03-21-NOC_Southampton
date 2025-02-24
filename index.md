@@ -158,7 +158,7 @@ This block displays the date and links to Google Calendar.
 
 <p id="requirements">
   <strong>Requirements:</strong>
-    Participants must bring a laptop which can connect to the Eduroam or NOCstaff wifi. All attendees will receive an account on the NOC Data Science Platform where all required software will be pre-installed. Anybody wishing to install the software on their laptop should follow the setup instructions <a href="#setup">below</a>.
+    Participants must bring a laptop which can connect to the Eduroam or NOCstaff wifi.
 </p>
 
 {% comment %}
